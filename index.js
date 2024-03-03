@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
   res.json({ message: 'Hello World!' });
 });
 
-app.get('/terabox', async (req, res) => {
+app.get('/tera', async (req, res) => {
   try {
     const url = req.query.url;
 
